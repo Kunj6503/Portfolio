@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 100vw;
+    background-color: black;
+    font-size: 20px;
+    color: aliceblue;
+    z-index: 100;
+}
+
+.nav-left {
+    background-color: black;
+}
+
+.nav-left h1 {
+    padding: 0 0 0 50px;
+    background-color: black;
+}
+
+.nav-right ul {
+    display: flex;
+    background-color: black;
+}
+
+.nav-right ul li {
+    text-decoration: none;
+    list-style: none;
+    padding-right: 50px;
+    font-weight: bold;
+}
+
+.nav-right ul li a {
+    color: aliceblue;
+    background-color: black;
+    transition: all 0.3s ease;
+    display: inline-block;
+
+}
+
+.nav-right ul li a:hover {
+    transform: scale(1.1);
+    color: rgb(2, 255, 2);
+}
+
+.bg-image img {
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: ;
+    opacity: 70%;
+}
+
+.about-container {
+    margin: 30px;
+    box-shadow: 0px 8px 76px white;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.753);
+}
+
+.about-me {
+    display: flex;
+    padding: 50px;
+
+}
+
+.nameimage {
+    display: flex;
+    align-items: center;
+
+}
+
+.about-left {
+    margin: 10px;
+    padding-right: 40px;
+}
+
+
+.tech {
+    margin: 30px;
+
+    box-shadow: 0px 8px 76px white;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.753);
+
+}
+
+.tech-image {
+    height: 100px;
+    max-width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+    display: flex;
+
+}
+
+.tech-image img {
+    margin-left: 60px;
+
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project1 {
+    margin: 30px;
+    box-shadow: 0px 8px 76px white;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.753);
+    width: 50vw;
+}
+
+.project2 {
+    margin: 30px;
+    box-shadow: 0px 8px 76px white;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.753);
+    width: 50vw;
+}
+
+.landing-imagename {
+    display: flex;
+    align-items: center;
+
+}
+
+.landing-image img {
+    padding: 20px;
+    height: 150px;
+}
+
+.project1 h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.project2 h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.landing-name {
+    margin: 0px 20px;
+}
+
+.notepad-imagename {
+    display: flex;
+    align-items: center;
+
+}
+
+.notepad-image img {
+    padding: 20px;
+    height: 150px;
+}
+
+.notepad-name {
+    margin: 0px 20px;
+}
+
+.w3-container {
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.w3-center {
+    padding-right: 6px;
+    text-align: right;
+}
+
+.skills {
+    margin: 30px;
+    padding: 20px 15px 20px 30px;
+    box-shadow: 0px 8px 76px white;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.753);
+}
+
+.skills h3{
+    margin-bottom: 5px;
+}
+
+.foot-container{
+    padding: 20px 15px 20px 30px;
+    background-color: rgba(255, 255, 255, 0.514);
+}
+
+.foot-top{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
